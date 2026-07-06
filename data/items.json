@@ -1,5 +1,20 @@
 [
   {
+    "id": "5b0c3d1b8bcd5991",
+    "title": "What Is AI Native Development?",
+    "normalizedTitle": "ai native development",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://brunelly.com/articles/what-is-ai-native-development",
+    "publishedAt": "2026-07-06T04:06:27Z",
+    "fetchedAt": "2026-07-06T04:32:10.824Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "5b0c3d1b8bcd5991",
+    "alsoCoveredBy": []
+  },
+  {
     "id": "872b525a8e8a5b40",
     "title": "Learn Faster with Your Personal AI Teacher",
     "normalizedTitle": "learn faster your personal ai teacher",
@@ -145,7 +160,9 @@
     "excerpt": "",
     "whyItMatters": null,
     "category": "tools",
-    "mentionedTools": [],
+    "mentionedTools": [
+      "Midjourney"
+    ],
     "dedupGroupId": "cc05999dd9623374",
     "alsoCoveredBy": []
   },
@@ -207,6 +224,21 @@
     "category": "tools",
     "mentionedTools": [],
     "dedupGroupId": "7933ceb4973d7a9a",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "e998906a376bd21c",
+    "title": "🤗 Kernels: Major Updates",
+    "normalizedTitle": "kernels major updates",
+    "sourceName": "Hugging Face",
+    "sourceUrl": "https://huggingface.co/blog/revamped-kernels",
+    "publishedAt": "2026-07-06T00:00:00.000Z",
+    "fetchedAt": "2026-07-06T04:32:10.823Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "e998906a376bd21c",
     "alsoCoveredBy": []
   },
   {
@@ -5470,7 +5502,9 @@
     "excerpt": "Using OpenAI reasoning models, Descript unlocked automatic localization of large content libraries without losing timing or meaning.",
     "whyItMatters": null,
     "category": "product-launches",
-    "mentionedTools": [],
+    "mentionedTools": [
+      "Descript"
+    ],
     "dedupGroupId": "878b3b60e9d01215",
     "alsoCoveredBy": []
   },

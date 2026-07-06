@@ -1,4 +1,53 @@
 {
-  "_comment": "Keyword -> affiliate info. Only include tools with a real, joined affiliate program. Empty/placeholder entries are intentionally omitted rather than faked.",
-  "tools": []
+  "_comment": "Fill in `url` with YOUR referral link after joining each program (see AFFILIATES-SETUP.md). Entries with an empty url are prepared but inactive - nothing renders on the site until the url is filled.",
+  "tools": [
+    {
+      "keyword": "ElevenLabs",
+      "label": "ElevenLabs",
+      "url": "",
+      "disclosure": "Affiliate link — we may earn a commission at no extra cost to you."
+    },
+    {
+      "keyword": "Murf",
+      "label": "Murf AI",
+      "url": "",
+      "disclosure": "Affiliate link — we may earn a commission at no extra cost to you."
+    },
+    {
+      "keyword": "Writesonic",
+      "label": "Writesonic",
+      "url": "",
+      "disclosure": "Affiliate link — we may earn a commission at no extra cost to you."
+    },
+    {
+      "keyword": "Frase",
+      "label": "Frase",
+      "url": "",
+      "disclosure": "Affiliate link — we may earn a commission at no extra cost to you."
+    },
+    {
+      "keyword": "Perplexity",
+      "label": "Perplexity Pro",
+      "url": "",
+      "disclosure": "Affiliate link — we may earn a commission at no extra cost to you."
+    },
+    {
+      "keyword": "Synthesia",
+      "label": "Synthesia",
+      "url": "",
+      "disclosure": "Affiliate link — we may earn a commission at no extra cost to you."
+    },
+    {
+      "keyword": "Pictory",
+      "label": "Pictory",
+      "url": "",
+      "disclosure": "Affiliate link — we may earn a commission at no extra cost to you."
+    },
+    {
+      "keyword": "Fliki",
+      "label": "Fliki",
+      "url": "",
+      "disclosure": "Affiliate link — we may earn a commission at no extra cost to you."
+    }
+  ]
 }

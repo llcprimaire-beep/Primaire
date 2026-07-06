@@ -7,6 +7,7 @@ import { SOURCES, matchesAiKeywords } from "./sources.mjs";
 import { canonicalId, normalizeTitle, findNearDuplicate } from "./dedupe.mjs";
 import { classify } from "./categories.mjs";
 import { whyItMatters } from "./enrich.mjs";
+import { detectTools } from "./tools-list.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_PATH = path.join(__dirname, "..", "data", "items.json");
@@ -140,7 +141,7 @@ async function main() {
       excerpt,
       whyItMatters: note,
       category,
-      mentionedTools: [],
+      mentionedTools: detectTools(`${cand.title} ${excerpt}`),
       dedupGroupId: id,
       alsoCoveredBy: [],
     };
@@ -148,6 +149,12 @@ async function main() {
     existing.push(newItem);
     existingById.set(id, newItem);
     newCount++;
+  }
+
+  // Re-tag every stored item each run: adding a tool to tools-list.mjs later
+  // retroactively lights up affiliate callouts on historical items too.
+  for (const it of existing) {
+    it.mentionedTools = detectTools(`${it.title} ${it.excerpt}`);
   }
 
   const trimmed = existing
