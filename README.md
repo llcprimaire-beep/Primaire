@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI News Hub
 
-## Getting Started
+A daily-updated, curated AI news aggregator. Every few hours it pulls headlines from ~10 public RSS feeds (OpenAI, Google AI, Hugging Face, TechCrunch, VentureBeat, MIT Technology Review, Ars Technica, The Verge, Hacker News, Anthropic), deduplicates them, optionally adds a one-line AI-generated "why it matters" note, and publishes them as a static Next.js site.
 
-First, run the development server:
+Every story links prominently back to its original source. Full articles are never reproduced — only headlines and short RSS excerpts, plus our own original commentary.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## How it works
+
+```
+GitHub Actions (every 4h)
+  └─ scripts/fetch-feeds.mjs
+       ├─ fetch all RSS feeds (scripts/sources.mjs)
+       ├─ dedupe: exact URL hash + near-duplicate titles (scripts/dedupe.mjs)
+       ├─ enrich: one-line "why it matters" via Claude API (scripts/enrich.mjs, optional)
+       └─ write data/items.json → commit → push
+             └─ Vercel auto-deploys the updated static site
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **`data/items.json`** — the entire "database": a capped (~5000 items / 180 days) JSON array, committed to git.
+- **Pages** — homepage (day-grouped feed), `/category/[slug]` (research, product-launches, policy-business, tools), `/archive/[date]` (per-day pages for SEO), About / Privacy / Terms.
+- **Ads** — `AdSlot` renders a placeholder until `NEXT_PUBLIC_ADSENSE_CLIENT_ID` is set (after AdSense approval). No code change needed to go live.
+- **Affiliates** — add entries to `config/affiliates.json` (keyword, label, url, disclosure) once you join a program; callouts appear automatically on stories that mention those tools.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Local development
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm install
+node scripts/fetch-feeds.mjs   # populate data/items.json
+npm run dev                    # http://localhost:3000
+```
 
-## Learn More
+## Operations
 
-To learn more about Next.js, take a look at the following resources:
+| What | Where |
+|---|---|
+| Change news sources | `scripts/sources.mjs` |
+| Update cron frequency | `.github/workflows/fetch-news.yml` |
+| Enable "why it matters" notes | Repo secret `ANTHROPIC_API_KEY` (Settings → Secrets and variables → Actions) |
+| Enable AdSense | Vercel env var `NEXT_PUBLIC_ADSENSE_CLIENT_ID` = `ca-pub-...`, then redeploy |
+| Set canonical site URL | Vercel env var `NEXT_PUBLIC_SITE_URL` (used in sitemap/metadata) |
+| Add affiliate links | `config/affiliates.json` |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Before applying for AdSense
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Fill in the bracketed `[placeholders]` in `src/app/about/page.tsx`, `src/app/privacy/page.tsx`, `src/app/terms/page.tsx` (operator name, dates, analytics provider).
+2. Let the site accumulate 2–4 weeks of daily content first.
+3. Expect that approval is not guaranteed for aggregator-style sites; more original commentary improves the odds.
