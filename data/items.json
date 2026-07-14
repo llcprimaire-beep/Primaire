@@ -1,5 +1,155 @@
 [
   {
+    "id": "a9bc6b0099215c1a",
+    "title": "Demis Hassabis has a plan to harness AI safely",
+    "normalizedTitle": "demis hassabis has plan harness ai safely",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://www.economist.com/business/2026/07/14/demis-hassabis-has-a-plan-to-harness-ai-safely",
+    "publishedAt": "2026-07-14T13:43:05Z",
+    "fetchedAt": "2026-07-14T13:49:56.161Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "a9bc6b0099215c1a",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "6a95df7df57b687e",
+    "title": "Show HN: Kmux – Parallel terminal workspace optimized for AI coding agents",
+    "normalizedTitle": "show hn kmux parallel terminal workspace optimized ai coding agents",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://github.com/kkd927/kmux",
+    "publishedAt": "2026-07-14T13:34:00Z",
+    "fetchedAt": "2026-07-14T13:49:56.160Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "6a95df7df57b687e",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "85019af483f1f0dd",
+    "title": "Show HN: VisualEther – Wireshark PCAPs to sequence diagrams; MCP for AI analysis",
+    "normalizedTitle": "show hn visualether wireshark pcaps sequence diagrams mcp ai analysis",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://www.eventhelix.com/visualether/case-studies/5g-nr-r16-mdt-mac-pdcp-decryption-scheduling-harq-ipsec-esp-analysis.html",
+    "publishedAt": "2026-07-14T13:26:08Z",
+    "fetchedAt": "2026-07-14T13:49:56.159Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "85019af483f1f0dd",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "0221b1d0649ec5f2",
+    "title": "Anthropic commits $10M to Canadian AI research",
+    "normalizedTitle": "anthropic commits 10m canadian ai research",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://www.anthropic.com/news/canadian-ai-research",
+    "publishedAt": "2026-07-14T13:16:08Z",
+    "fetchedAt": "2026-07-14T13:49:56.158Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "0221b1d0649ec5f2",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "612aa739fef56a56",
+    "title": "AI-Notify – Context-aware terminal notifications for multitasking devs",
+    "normalizedTitle": "ai notify context aware terminal notifications multitasking devs",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://medium.com/engineering-in-the-age-of-ai/ai-notify-context-aware-notifications-for-multi-tasking-developers-3614635398ec",
+    "publishedAt": "2026-07-14T13:15:10Z",
+    "fetchedAt": "2026-07-14T13:49:56.156Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "612aa739fef56a56",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "46f48fa63f772997",
+    "title": "Identify Skin: AI Dermatology SaaS",
+    "normalizedTitle": "identify skin ai dermatology saas",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://identify.skin/en",
+    "publishedAt": "2026-07-14T13:12:35Z",
+    "fetchedAt": "2026-07-14T13:49:56.155Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "46f48fa63f772997",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "2d5e986f445a09da",
+    "title": "Don't bring an AI detector to a deepfake fight: provenance over detection",
+    "normalizedTitle": "don t bring ai detector deepfake fight provenance detection",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://www.lesswrong.com/posts/MBRNR5h9g6HGvAJDe/don-t-bring-an-ai-detector-to-a-deepfake-fight-proving",
+    "publishedAt": "2026-07-14T13:11:29Z",
+    "fetchedAt": "2026-07-14T13:49:56.154Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "2d5e986f445a09da",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "1ce2bf5464ffc1c6",
+    "title": "U of Chicago law school bans laptops from classes amid AI backlash",
+    "normalizedTitle": "u chicago law school bans laptops from classes ai backlash",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://www.the-independent.com/tech/laptop-ban-university-ai-backlash-b3013911.html",
+    "publishedAt": "2026-07-14T12:57:08Z",
+    "fetchedAt": "2026-07-14T13:49:56.153Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "1ce2bf5464ffc1c6",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "b6cc5be35d6e3a59",
+    "title": "Mnemo AI – Local agentic assistant for any LLM that learns from its failures",
+    "normalizedTitle": "mnemo ai local agentic assistant any llm that learns from failures",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://github.com/brunopistone/mnemoai",
+    "publishedAt": "2026-07-14T12:49:54Z",
+    "fetchedAt": "2026-07-14T13:49:56.153Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "b6cc5be35d6e3a59",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "07f9f4a895233545",
+    "title": "Google’s Demis Hassabis says it’s time for a global AI watchdog — led by the US",
+    "normalizedTitle": "google s demis hassabis s time global ai watchdog led us",
+    "sourceName": "The Verge",
+    "sourceUrl": "https://www.theverge.com/tech/965270/google-deepmind-demis-hassabis-global-ai-watchdog",
+    "publishedAt": "2026-07-14T11:43:29.000Z",
+    "fetchedAt": "2026-07-14T13:49:56.151Z",
+    "excerpt": "Demis Hassabis, during a panel session at the World Economic Forum in Davos, Switzerland.",
+    "whyItMatters": null,
+    "category": "policy-business",
+    "mentionedTools": [],
+    "dedupGroupId": "07f9f4a895233545",
+    "alsoCoveredBy": []
+  },
+  {
     "id": "cb5415b301c94540",
     "title": "Mensfeld/code-on-incus: Give each AI agent its own isolated machine",
     "normalizedTitle": "mensfeld code incus give each ai agent own isolated machine",
@@ -27,7 +177,12 @@
     "category": "tools",
     "mentionedTools": [],
     "dedupGroupId": "7bbc748c3c636e1d",
-    "alsoCoveredBy": []
+    "alsoCoveredBy": [
+      {
+        "sourceName": "Hacker News",
+        "sourceUrl": "https://x.com/demishassabis/article/2076957440109625718"
+      }
+    ]
   },
   {
     "id": "3e999fd6d98f4b01",
@@ -657,7 +812,12 @@
     "category": "tools",
     "mentionedTools": [],
     "dedupGroupId": "c328c8ca299f5a2b",
-    "alsoCoveredBy": []
+    "alsoCoveredBy": [
+      {
+        "sourceName": "Hacker News",
+        "sourceUrl": "https://www.neowin.net/news/samsung-will-delete-your-health-data-if-you-dont-let-them-use-it-to-train-ai/"
+      }
+    ]
   },
   {
     "id": "4a91155538c0332a",
