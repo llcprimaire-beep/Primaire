@@ -1,5 +1,65 @@
 [
   {
+    "id": "048680c6de7d9e21",
+    "title": "Show HN: I built an AI that roasts GitHub profiles",
+    "normalizedTitle": "show hn i built ai that roasts github profiles",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://gitroast-kappa.vercel.app/",
+    "publishedAt": "2026-07-26T06:28:24Z",
+    "fetchedAt": "2026-07-26T06:38:48.085Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "048680c6de7d9e21",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "ff6bb8b4037f85c2",
+    "title": "Microsoft launches new in-house AI models. Cuts costs up to 89% versus OpenAI",
+    "normalizedTitle": "microsoft house ai models cuts costs up 89 versus openai",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://venturebeat.com/infrastructure/microsoft-launches-new-in-house-ai-models-it-says-cut-costs-up-to-89-versus-openai",
+    "publishedAt": "2026-07-26T05:59:36Z",
+    "fetchedAt": "2026-07-26T06:38:48.082Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "ff6bb8b4037f85c2",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "f24dc50e046455a2",
+    "title": "Show HN: Hydra, a local-first trust control plane that routes AI by confidence",
+    "normalizedTitle": "show hn hydra local first trust control plane that routes ai confidence",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://hydra.uvansa.com/",
+    "publishedAt": "2026-07-26T05:38:56Z",
+    "fetchedAt": "2026-07-26T06:38:48.081Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "f24dc50e046455a2",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "4bc6abd517c2e529",
+    "title": "MIT to become hotbed of AI video surveillance",
+    "normalizedTitle": "mit become hotbed ai video surveillance",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html",
+    "publishedAt": "2026-07-26T04:07:54Z",
+    "fetchedAt": "2026-07-26T06:38:48.079Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "4bc6abd517c2e529",
+    "alsoCoveredBy": []
+  },
+  {
     "id": "10724c5d0f026cc9",
     "title": "Show HN: Rules that stop AI coding agents from breaking working code",
     "normalizedTitle": "show hn rules that stop ai coding agents from breaking working code",
@@ -29514,21 +29574,6 @@
     "category": "tools",
     "mentionedTools": [],
     "dedupGroupId": "927036739d8c13b8",
-    "alsoCoveredBy": []
-  },
-  {
-    "id": "61967ed53f8fcf7a",
-    "title": "PVH reimagines the future of fashion with OpenAI",
-    "normalizedTitle": "pvh reimagines future fashion openai",
-    "sourceName": "OpenAI",
-    "sourceUrl": "https://openai.com/index/pvh-future-of-fashion",
-    "publishedAt": "2026-01-27T06:00:00.000Z",
-    "fetchedAt": "2026-07-06T03:10:36.672Z",
-    "excerpt": "PVH Corp., parent company of Calvin Klein and Tommy Hilfiger, is adopting ChatGPT Enterprise to bring AI into fashion design, supply chain, and consumer engagement.",
-    "whyItMatters": null,
-    "category": "product-launches",
-    "mentionedTools": [],
-    "dedupGroupId": "61967ed53f8fcf7a",
     "alsoCoveredBy": []
   }
 ]
