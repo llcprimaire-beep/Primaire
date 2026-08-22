@@ -1,5 +1,110 @@
 [
   {
+    "id": "8344d4cebde09153",
+    "title": "Older Americans leaving workforce poses challenges for AI plans",
+    "normalizedTitle": "older americans leaving workforce poses challenges ai plans",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://www.spglobal.com/market-intelligence/en/news-insights/articles/2026/8/older-americans-leaving-workforce-poses-challenges-for-ai-plans-105150367",
+    "publishedAt": "2026-08-22T08:24:50Z",
+    "fetchedAt": "2026-08-22T08:32:41.925Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "8344d4cebde09153",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "766f6e70fc485819",
+    "title": "I turned Unix talk from 1983 into the interface for my AI",
+    "normalizedTitle": "i turned unix talk from 1983 interface my ai",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://en.andros.dev/blog/09a21bdd/i-turned-unix-talk-from-1983-into-the-interface-for-my-ai/",
+    "publishedAt": "2026-08-22T08:14:41Z",
+    "fetchedAt": "2026-08-22T08:32:41.923Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "766f6e70fc485819",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "d5784af1c8990f60",
+    "title": "Show HN: Agile AI Development Lifecycle",
+    "normalizedTitle": "show hn agile ai development lifecycle",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://valeriavg.dev/agile-ai-development-lifecycle",
+    "publishedAt": "2026-08-22T08:08:59Z",
+    "fetchedAt": "2026-08-22T08:32:41.922Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "d5784af1c8990f60",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "9d774903692b5d7c",
+    "title": "Show HN: Learn Leap, an AI tutor that teaches from your own material",
+    "normalizedTitle": "show hn learn leap ai tutor that teaches from your own material",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://learnleap.xyz",
+    "publishedAt": "2026-08-22T08:07:56Z",
+    "fetchedAt": "2026-08-22T08:32:41.920Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "9d774903692b5d7c",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "78bea7f27b6d21f6",
+    "title": "Would a Hiroshima-scale AI disaster make humanity protect itself? I fear not",
+    "normalizedTitle": "would hiroshima scale ai disaster make humanity protect itself i fear not",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://www.theguardian.com/commentisfree/2026/aug/22/ai-disaster-hiroshima-humankind-silicon-valley-technology",
+    "publishedAt": "2026-08-22T06:46:35Z",
+    "fetchedAt": "2026-08-22T08:32:41.919Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "78bea7f27b6d21f6",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "eb8b9dad903585c8",
+    "title": "Intelligence per Watt: Measuring Intelligence Efficiency of Local AI",
+    "normalizedTitle": "intelligence per watt measuring intelligence efficiency local ai",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://arxiv.org/abs/2511.07885",
+    "publishedAt": "2026-08-22T05:54:49Z",
+    "fetchedAt": "2026-08-22T08:32:41.917Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "eb8b9dad903585c8",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "3d06f8aedf94c5e1",
+    "title": "Show HN: Front end skill pack for AI agents, with machine-enforced quality gates",
+    "normalizedTitle": "show hn front end skill pack ai agents machine enforced quality gates",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://krishna-modi12.github.io/frontend-design-pro/",
+    "publishedAt": "2026-08-22T05:52:19Z",
+    "fetchedAt": "2026-08-22T08:32:41.916Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "3d06f8aedf94c5e1",
+    "alsoCoveredBy": []
+  },
+  {
     "id": "7b03dc0afcc7a59b",
     "title": "Getting Freaky in the Age of AI",
     "normalizedTitle": "getting freaky age ai",
@@ -27,7 +132,12 @@
     "category": "tools",
     "mentionedTools": [],
     "dedupGroupId": "edcc9a8dfb2761fd",
-    "alsoCoveredBy": []
+    "alsoCoveredBy": [
+      {
+        "sourceName": "Hacker News",
+        "sourceUrl": "https://www.phoronix.com/news/Linus-Torvalds-Debug-AI"
+      }
+    ]
   },
   {
     "id": "7742ec42af693be4",
@@ -1272,6 +1382,36 @@
     "category": "research",
     "mentionedTools": [],
     "dedupGroupId": "e3ddd7a65cd3a566",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "74ac61e244043f10",
+    "title": "The AI-Native SDLC playbook",
+    "normalizedTitle": "ai native sdlc playbook",
+    "sourceName": "Anthropic",
+    "sourceUrl": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+    "publishedAt": "2026-08-21T00:00:00.000Z",
+    "fetchedAt": "2026-08-22T08:32:41.907Z",
+    "excerpt": ".w-richtext h4{font-family:inherit;font-size:1.12em;line-height:1.3;font-weight:600;margin:40px 0 14px} .w-richtext h3{margin-top:44px} .w-richtext pre{font-family:Menlo,Consolas,\"SF...",
+    "whyItMatters": null,
+    "category": "policy-business",
+    "mentionedTools": [],
+    "dedupGroupId": "74ac61e244043f10",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "f034ee1587ce0876",
+    "title": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+    "normalizedTitle": "bringing cybersecurity capabilities claude mythos 5 more defenders",
+    "sourceName": "Anthropic",
+    "sourceUrl": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+    "publishedAt": "2026-08-21T00:00:00.000Z",
+    "fetchedAt": "2026-08-22T08:32:41.913Z",
+    "excerpt": "We're sharing an update on our efforts to help more teams use frontier capabilities for cyber defense.",
+    "whyItMatters": null,
+    "category": "product-launches",
+    "mentionedTools": [],
+    "dedupGroupId": "f034ee1587ce0876",
     "alsoCoveredBy": []
   },
   {
@@ -61584,21 +61724,6 @@
     "category": "product-launches",
     "mentionedTools": [],
     "dedupGroupId": "33e5e5bcd68981ac",
-    "alsoCoveredBy": []
-  },
-  {
-    "id": "9ea61497c289b52a",
-    "title": "OpenAI announces Frontier Alliance Partners",
-    "normalizedTitle": "openai frontier alliance partners",
-    "sourceName": "OpenAI",
-    "sourceUrl": "https://openai.com/index/frontier-alliance-partners",
-    "publishedAt": "2026-02-23T05:30:00.000Z",
-    "fetchedAt": "2026-07-06T03:10:36.674Z",
-    "excerpt": "OpenAI announces Frontier Alliance Partners to help enterprises move from AI pilots to production with secure, scalable agent deployments.",
-    "whyItMatters": null,
-    "category": "product-launches",
-    "mentionedTools": [],
-    "dedupGroupId": "9ea61497c289b52a",
     "alsoCoveredBy": []
   }
 ]
