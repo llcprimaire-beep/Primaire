@@ -63065,20 +63065,5 @@
     "mentionedTools": [],
     "dedupGroupId": "8855719404fbbab8",
     "alsoCoveredBy": []
-  },
-  {
-    "id": "d163670fb22ce1f9",
-    "title": "Disrupting malicious uses of AI | February 2026",
-    "normalizedTitle": "disrupting malicious uses ai february 2026",
-    "sourceName": "OpenAI",
-    "sourceUrl": "https://openai.com/index/disrupting-malicious-ai-uses",
-    "publishedAt": "2026-02-25T00:00:00.000Z",
-    "fetchedAt": "2026-07-06T03:10:36.674Z",
-    "excerpt": "Our latest threat report examines how malicious actors combine AI models with websites and social platforms—and what it means for detection and defense.",
-    "whyItMatters": null,
-    "category": "product-launches",
-    "mentionedTools": [],
-    "dedupGroupId": "d163670fb22ce1f9",
-    "alsoCoveredBy": []
   }
 ]
