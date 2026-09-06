@@ -1,5 +1,157 @@
 [
   {
+    "id": "24f6b7e284d2df4c",
+    "title": "VMware Intros Private AI Cloud",
+    "normalizedTitle": "vmware intros private ai cloud",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://www.nextplatform.com/cloud/2026/09/01/vmware-intros-private-ai-cloud-ai-factory-as-workloads-shift-to-on-prem/5293559",
+    "publishedAt": "2026-09-06T03:22:42Z",
+    "fetchedAt": "2026-09-06T03:34:02.096Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "24f6b7e284d2df4c",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "a8511c6e80b7af56",
+    "title": "AI-Assisted Design of a Post-Quantum Cryptographic Accelerator",
+    "normalizedTitle": "ai assisted design post quantum cryptographic accelerator",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://arxiv.org/abs/2609.04058",
+    "publishedAt": "2026-09-06T03:07:07Z",
+    "fetchedAt": "2026-09-06T03:34:02.092Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "a8511c6e80b7af56",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "b15355d90885e840",
+    "title": "Routed: Local, zero-token hybrid router for AI agent skills (<20ms)",
+    "normalizedTitle": "routed local zero token hybrid router ai agent skills 20ms",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://github.com/bshea-1/Routed",
+    "publishedAt": "2026-09-06T03:04:52Z",
+    "fetchedAt": "2026-09-06T03:34:02.090Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "b15355d90885e840",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "488cc99209e435b6",
+    "title": "Title: A local signed notebook for AI agents, with CLI and MCP interfaces",
+    "normalizedTitle": "title local signed notebook ai agents cli mcp interfaces",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://github.com/davidnichols-ops/aafp-commons",
+    "publishedAt": "2026-09-06T02:49:16Z",
+    "fetchedAt": "2026-09-06T03:34:02.087Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "488cc99209e435b6",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "d03f41c4c8ee338b",
+    "title": "EvoMind: A local-first cognitive AI architecture with runtime safety gates",
+    "normalizedTitle": "evomind local first cognitive ai architecture runtime safety gates",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://zenodo.org/records/20580153",
+    "publishedAt": "2026-09-06T02:36:06Z",
+    "fetchedAt": "2026-09-06T03:34:02.086Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "d03f41c4c8ee338b",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "f936df2f33555221",
+    "title": "One new Swiss company in thirty-six now claims AI",
+    "normalizedTitle": "one swiss company thirty six now claims ai",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://prospex.ch/blog/ai-companies-in-switzerland-what-the-commercial-register-shows/",
+    "publishedAt": "2026-09-06T01:24:31Z",
+    "fetchedAt": "2026-09-06T03:34:02.085Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "f936df2f33555221",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "b5484924b8ecff1d",
+    "title": "DHH: Programming, AI, Vibe Coding and Linux (Lex Fridman Podcast)",
+    "normalizedTitle": "dhh programming ai vibe coding linux lex fridman podcast",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://lexfridman.com/dhh-2-transcript/",
+    "publishedAt": "2026-09-06T00:01:42Z",
+    "fetchedAt": "2026-09-06T03:34:02.083Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "b5484924b8ecff1d",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "2c9451e474f53075",
+    "title": "Show HN: Midjourney API with webhooks, polling",
+    "normalizedTitle": "show hn midjourney api webhooks polling",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://www.midjourney-api.com",
+    "publishedAt": "2026-09-05T23:52:56Z",
+    "fetchedAt": "2026-09-06T03:34:02.082Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [
+      "Midjourney"
+    ],
+    "dedupGroupId": "2c9451e474f53075",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "859f9fa0d7109dd6",
+    "title": "Truckers – AI data centers as business booms",
+    "normalizedTitle": "truckers ai data centers business booms",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://www.cnbc.com/2026/09/05/ai-data-centers-cost-economy.html",
+    "publishedAt": "2026-09-05T23:22:46Z",
+    "fetchedAt": "2026-09-06T03:34:02.078Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "859f9fa0d7109dd6",
+    "alsoCoveredBy": []
+  },
+  {
+    "id": "a13c9f2d44620acf",
+    "title": "Workforce behind AI spans 160M workers, many in the Global South",
+    "normalizedTitle": "workforce behind ai spans 160m workers many global south",
+    "sourceName": "Hacker News",
+    "sourceUrl": "https://www.thecooldown.com/green-tech/global-south-data-workers-ai-labor-organization/",
+    "publishedAt": "2026-09-05T23:02:55Z",
+    "fetchedAt": "2026-09-06T03:34:02.075Z",
+    "excerpt": "",
+    "whyItMatters": null,
+    "category": "tools",
+    "mentionedTools": [],
+    "dedupGroupId": "a13c9f2d44620acf",
+    "alsoCoveredBy": []
+  },
+  {
     "id": "496e1a600c321d9a",
     "title": "America's Two Largest School Districts Impose AI Moratoriums",
     "normalizedTitle": "america s two largest school districts impose ai moratoriums",
@@ -1782,7 +1934,12 @@
     "category": "tools",
     "mentionedTools": [],
     "dedupGroupId": "8412c4ca12755303",
-    "alsoCoveredBy": []
+    "alsoCoveredBy": [
+      {
+        "sourceName": "Hacker News",
+        "sourceUrl": "https://github.com/NVIDIA/Personal-AI-Router"
+      }
+    ]
   },
   {
     "id": "931d667e23812826",
@@ -73784,36 +73941,6 @@
     "category": "product-launches",
     "mentionedTools": [],
     "dedupGroupId": "101605e3044aa24d",
-    "alsoCoveredBy": []
-  },
-  {
-    "id": "25505e303fd77079",
-    "title": "Introducing Storage Buckets on the Hugging Face Hub",
-    "normalizedTitle": "introducing storage buckets hugging face hub",
-    "sourceName": "Hugging Face",
-    "sourceUrl": "https://huggingface.co/blog/storage-buckets",
-    "publishedAt": "2026-03-10T00:00:00.000Z",
-    "fetchedAt": "2026-07-06T03:10:36.677Z",
-    "excerpt": "",
-    "whyItMatters": null,
-    "category": "tools",
-    "mentionedTools": [],
-    "dedupGroupId": "25505e303fd77079",
-    "alsoCoveredBy": []
-  },
-  {
-    "id": "b8544e21ac38f5f4",
-    "title": "Keep the Tokens Flowing: Lessons from 16 Open-Source RL Libraries",
-    "normalizedTitle": "keep tokens flowing lessons from 16 open source rl libraries",
-    "sourceName": "Hugging Face",
-    "sourceUrl": "https://huggingface.co/blog/async-rl-training-landscape",
-    "publishedAt": "2026-03-10T00:00:00.000Z",
-    "fetchedAt": "2026-07-06T03:10:36.677Z",
-    "excerpt": "",
-    "whyItMatters": null,
-    "category": "tools",
-    "mentionedTools": [],
-    "dedupGroupId": "b8544e21ac38f5f4",
     "alsoCoveredBy": []
   }
 ]
